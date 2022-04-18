@@ -61,3 +61,7 @@ Since every motherboard is different, it is advisable to consult the manual if y
 
 ![alt text](sreenshots/qubic5.png)
 
+5. When downloaded load it in the project.
+
+![alt text](sreenshots/qubic6.png)
+
