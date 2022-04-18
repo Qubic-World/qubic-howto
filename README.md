@@ -65,3 +65,5 @@ Since every motherboard is different, it is advisable to consult the manual if y
 
 ![alt text](sreenshots/qubic6.png)
 
+![alt text](sreenshots/qubic7.png)
+
