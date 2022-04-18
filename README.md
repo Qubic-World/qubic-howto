@@ -42,10 +42,10 @@ Since every motherboard is different, it is advisable to consult the manual if y
 
 # Compiling Qubic with Visual Studio Code Community 2022
 
-1. Install Visual Studio Code Community 2022, while installing make sure the Desktop Development with C++ components are installed.
+1. Install Visual Studio Code Community 2022, while installing make sure the Desktop Development with C++ components are installed. If you already had installed Visual Studio Code you install the components at Tools >> Get Tools and Features.
 
 ![alt text](sreenshots/qubic1.png)
 
+2. When we start Visual Studio we need to create a new project make sure you use the following settings.
 
-
-
+![alt text](sreenshots/qubic1.png)
