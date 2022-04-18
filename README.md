@@ -83,4 +83,8 @@ At number 4 we specify our COMPUTOR ID (its generated automatically when your're
 
 At number 5 we're specifying public IPs ask for latest public IPs on discord in #qubic channel. 
 
+So with everything setup, we're going to compile the .efi file. The next steps are very important to create a succesfull compiled file.
+
+7. Compiling
+
 
