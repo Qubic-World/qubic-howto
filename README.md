@@ -31,8 +31,10 @@ For now, the exact conditions for a successful system are not yet available.
 4. Prepare USB
 5. Run
 
-# Preparing motherboard and bios settings 
+# Before we start read very carefully.
+As a community or as an individual, we are in no way responsible for losing passwords or losing money. We assume that self-research is being done and that the common sense of an individual does its job. No rights can be obtained from its contents, nor is it meant as personal or professional advice. Also check if this info is up to date or even outdated.
 
+# Preparing motherboard and bios settings 
 Since every motherboard is different, it is advisable to consult the manual if you cannot find certain settings. There are a number of important things that need to be set up.
 
 1. Make sure motherboard can run or boot with UEFI
