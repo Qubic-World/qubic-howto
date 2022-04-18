@@ -46,7 +46,7 @@ Since every motherboard is different, it is advisable to consult the manual if y
 
 https://github.com/forci0ne/qubic-howto/blob/main/sreenshots/studiocode2.png
 
-![alt text](https://github.com/forci0ne/qubic-howto/blob/main/sreenshots/studiocode2.png "Screenshot 1")
+![alt text](https://github.com/forci0ne/qubic-howto/blob/main/sreenshots/studiocode1.png)
 
 
 
