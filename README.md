@@ -51,3 +51,8 @@ Since every motherboard is different, it is advisable to consult the manual if y
 ![alt text](sreenshots/qubic2.png)
 
 ![alt text](sreenshots/qubic3.png)
+
+3. Give the project a name
+
+![alt text](sreenshots/qubic3.png)
+
