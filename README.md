@@ -12,4 +12,16 @@ Because we use a UEFI application, the successful use of the software is very de
 
 For now, the exact conditions for a successful system are not yet available. 
 
-# Requirements
+# Hardware Requirements
+Highend CPU
+Motherboard which accept unsecure UEFI software
+64GB Ram
+1GBps internet connection
+
+# Software Requirements
+[Qomputor](https://www.computors.org/computing/qomputor "Qomputor")
+[Qomputor](https://www.computors.org/computing/qomputor "Qomputor")
+[Qomputor](https://www.computors.org/computing/qomputor "Qomputor")
+[Qomputor](https://www.computors.org/computing/qomputor "Qomputor")
+[Qomputor](https://www.computors.org/computing/qomputor "Qomputor")
+
