@@ -19,9 +19,9 @@ For now, the exact conditions for a successful system are not yet available.
 * 1GBps internet connection
 
 # Software Requirements
-⋅⋅* [Qomputor](https://www.computors.org/computing/qomputor "Qomputor")
-⋅⋅* [Qomputor](https://www.computors.org/computing/qomputor "Qomputor")
-⋅⋅* [Qomputor](https://www.computors.org/computing/qomputor "Qomputor")
-⋅⋅* [Qomputor](https://www.computors.org/computing/qomputor "Qomputor")
-⋅⋅* [Qomputor](https://www.computors.org/computing/qomputor "Qomputor")
+* [Qomputor](https://www.computors.org/computing/qomputor "Qomputor")
+* [Qomputor](https://www.computors.org/computing/qomputor "Qomputor")
+* [Qomputor](https://www.computors.org/computing/qomputor "Qomputor")
+* [Qomputor](https://www.computors.org/computing/qomputor "Qomputor")
+* [Qomputor](https://www.computors.org/computing/qomputor "Qomputor")
 
