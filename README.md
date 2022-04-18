@@ -44,7 +44,7 @@ Since every motherboard is different, it is advisable to consult the manual if y
 
 1. Install Visual Studio Code Community 2022, while installing make sure the Desktop Development with C++ components are installed.
 
-![alt text](https://github.com/forci0ne/qubic-howto/blob/main/sreenshots/studiocode1.png)
+![alt text](sreenshots/qubic1.png)
 
 
 
