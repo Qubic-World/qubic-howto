@@ -48,4 +48,6 @@ Since every motherboard is different, it is advisable to consult the manual if y
 
 2. When we start Visual Studio we need to create a new project make sure you use the following settings.
 
-![alt text](sreenshots/qubic1.png)
+![alt text](sreenshots/qubic2.png)
+
+![alt text](sreenshots/qubic2.png)
