@@ -10,5 +10,6 @@ Because we use a UEFI application, the successful use of the software is very de
 | ------------------ |:-----------:| ----:| -------:   |
 | MSI B450-A PRO MAX | Ryzen 3950x | 64GB | 1gbps      |
 
-
 For now, the exact conditions for a successful system are not yet available. 
+
+# Requirements
