@@ -4,11 +4,11 @@ In this tutorial we'll setup a Public or Non Public [Qomputor](https://www.compu
 
 Qubic software is running on baremetal machines without any OS installed, the software is a so called UEFI application and for security reasons we compile it ourselves with the .cpp files provided by [Come-from-Beyond](https://twitter.com/c___f___b "Twitter"). The latest releases will always be on [Syzygy Discord ](https://discord.gg/2vDMR8m "Syzygy Discord").
 
-Because we use a UEFI application, the successful use of the software is very dependent on the system that is used. Here are some examples of mobo/cpu combinations that have been tested and which work successfully.
+Because we use a UEFI application, the successful use of the software is very dependent on the system that is used. Here are some examples of motherboard/cpu combinations that have been tested and which are working successfully.
 
-| Motherboard        | CPU         | RAM  |
-| ------------------ |:-----------:| ----:|
-| MSI B450-A PRO MAX | Ryzen 3950x | 64GB |
+| Motherboard        | CPU         | RAM  | Connection |
+| ------------------ |:-----------:| ----:| -------:   |
+| MSI B450-A PRO MAX | Ryzen 3950x | 64GB | 1gbps      |
 
 
 For now, the exact conditions for a successful system are not yet available. 
