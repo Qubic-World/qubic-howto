@@ -35,10 +35,11 @@ For now, the exact conditions for a successful system are not yet available.
 
 Since every motherboard is different, it is advisable to consult the manual if you cannot find certain settings. There are a number of important things that need to be set up.
 
-1. Disable secure boot
-2. Change boot order to USB (uefi)
-3. Set time to 00:00 UTC
-4. Make sure network stack is available (if not then maybe you need to install drivers, we'll be covering this later and its yet not described in this tutorial)
+1. Make sure motherboard can run or boot with UEFI
+2. Disable secure boot
+3. Change boot order to USB (uefi)
+4. Set time to 00:00 UTC
+5. Make sure network stack is available (if not then maybe you need to install drivers, we'll be covering this later and its yet not described in this tutorial)
 
 # Compiling Qubic with Visual Studio Code Community 2022
 
