@@ -23,12 +23,21 @@ For now, the exact conditions for a successful system are not yet available.
 * [Visual Studio Code](https://visualstudio.microsoft.com/vs)
 * [Rufus](https://rufus.ie)
 
-# The steps we will take to achieve a successful efi application
+# The steps we will take to achieve a successful running efi application
 
 1. Prepare motherboard/bios settings
-2. Compiling Qubic
-3. Prepare USB
-4. Run
+3. Compiling Qubic
+4. Prepare USB
+5. Run
 
-# Preparing motherboars and bios settings 
+# Preparing motherboard and bios settings 
+
+Since every motherboard is different, it is advisable to consult the manual if you cannot find certain settings. There are a number of important things that need to be set up.
+
+1. Find and disable secure boot
+2. Change boot order to USB (uefi)
+3. Set time to 00:00 UTC
+4. Make sure network stack is available (if not then maybe you need to install drivers, we'll be covering this later and its yet not described in this tutorial)
+
+
 
