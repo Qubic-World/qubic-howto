@@ -85,6 +85,28 @@ At number 5 we're specifying public IPs ask for latest public IPs on discord in 
 
 So with everything setup, we're going to compile the .efi file. The next steps are very important to create a succesfull compiled file.
 
-7. Compiling
+7. Make sure each following setting matches the settings in Visual Studio Code.
 
+![alt text](sreenshots/qubic9.png)
 
+![alt text](sreenshots/qubic10.png)
+
+![alt text](sreenshots/qubic11.png)
+
+![alt text](sreenshots/qubic12.png)
+
+![alt text](sreenshots/qubic13.png)
+
+![alt text](sreenshots/qubic14.png)
+
+![alt text](sreenshots/qubic15.png)
+
+![alt text](sreenshots/qubic16.png)
+
+![alt text](sreenshots/qubic17.png)
+
+![alt text](sreenshots/qubic18.png)
+
+![alt text](sreenshots/qubic19.png)
+
+![alt text](sreenshots/qubic20.png)
