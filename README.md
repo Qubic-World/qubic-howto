@@ -69,14 +69,12 @@ Since every motherboard is different, it is advisable to consult the manual if y
 
 6. When the file is imported we are going to setup our personal settings.
 
-4. And another item.
+![alt text](sreenshots/qubic8.png)
 
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+At number 1 we're specifying how many cores or threads should be mining, read you manual from cpu to check. For now best results are (threads - 2 threads, but is also machine dependent play with it), for now we leave computing as 0.
 
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+At number 
 
-![alt text](sreenshots/qubic7.png)
+At number 3 we're going to setup our router settings (log in to your router to see if settings are matching, when you wanna run a public node make sure you forwarding port 21841 en disabling firewall settings or check if port is open.
 
 
