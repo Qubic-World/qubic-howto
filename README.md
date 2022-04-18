@@ -110,3 +110,5 @@ So with everything setup, we're going to compile the .efi file. The next steps a
 ![alt text](sreenshots/qubic19.png)
 
 ![alt text](sreenshots/qubic20.png)
+
+After al these settings we have set up hit CTRL SHIFT + B, if every thing is fine you should see no errors in your Visual Studio Code screen.
