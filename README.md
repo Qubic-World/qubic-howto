@@ -14,14 +14,21 @@ For now, the exact conditions for a successful system are not yet available.
 
 # Hardware Requirements
 * Highend CPU
-* Motherboard which accept unsecure UEFI software
+* Motherboard which accept unsecure UEFI software (disable secure boot)
 * 64GB Ram
 * 1GBps internet connection
+* 128GB USB Stick
 
 # Software Requirements
-* [Qomputor](https://www.computors.org/computing/qomputor "Qomputor")
-* [Qomputor](https://www.computors.org/computing/qomputor "Qomputor")
-* [Qomputor](https://www.computors.org/computing/qomputor "Qomputor")
-* [Qomputor](https://www.computors.org/computing/qomputor "Qomputor")
-* [Qomputor](https://www.computors.org/computing/qomputor "Qomputor")
+* [Visual Studio Code](https://visualstudio.microsoft.com/vs)
+* [Rufus](https://rufus.ie)
+
+# The steps we will take to achieve a successful efi application
+
+1. Prepare motherboard/bios settings
+2. Compiling Qubic
+3. Prepare USB
+4. Run
+
+# Preparing motherboars and bios settings 
 
