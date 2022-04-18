@@ -73,7 +73,7 @@ Since every motherboard is different, it is advisable to consult the manual if y
 
 At number 1 we're specifying how many cores or threads should be mining, read you manual from cpu to check. For now best results are (threads - 2 threads, but is also machine dependent play with it), for now we leave computing as 0.
 
-At number 
+At number 2 we need to specify our secret seed, '''make a 55 lowercase password and share it with no one anytime'''
 
 At number 3 we're going to setup our router settings (log in to your router to see if settings are matching, when you wanna run a public node make sure you forwarding port 21841 en disabling firewall settings or check if port is open.
 
