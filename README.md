@@ -87,9 +87,9 @@ So with everything setup, we're going to compile the .efi file. The next steps a
 
 7. Make sure each following setting matches the settings in Visual Studio Code.
 
-![alt text](sreenshots/qubic9.png)
+![alt text](sreenshots/qubic9_1.png)
 
-![alt text](sreenshots/qubic10.png)
+![alt text](sreenshots/qubic10_1.png)
 
 ![alt text](sreenshots/qubic11.png)
 
