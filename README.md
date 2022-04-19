@@ -14,7 +14,7 @@ For now, the exact conditions for a successful system are not yet available.
 
 # Hardware Requirements
 * Highend CPU
-* Motherboard which accept unsecure UEFI software (disable secure boot)
+* Motherboard which accept UEFI software (disable secure boot)
 * 64GB Ram
 * 1GBps internet connection
 * 128GB USB Stick
