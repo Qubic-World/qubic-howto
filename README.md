@@ -73,13 +73,13 @@ Since every motherboard is different, it is advisable to consult the manual if y
 
 ![alt text](sreenshots/qubic8.png)
 
-At number 1 we're specifying how many cores or threads should be mining, read you manual from cpu to check. For now best results are (threads - 2 threads, but is also machine dependent play with it), for now we leave computing as 0.
+At number 1 we're specifying how many cores or threads should be mining (in the end Computor Nodes will do other tasks, before that we'll need 676 computors), read you manual from cpu to check. For now best results are (threads - 2 threads, but is also machine dependent so play with it), for now we leave computing threads as 0.
 
-At number 2 we need to specify our secret seed, '''make a 55 lowercase password and share it with no one anytime''' you are responsible for your own password and no one else. Write it down save it somewhere where noboby can find it, dont loose it or anything else that may happen. We cant say this enough.
+At number 2 we need to specify our secret seed, '''make a 55 lowercase password and share it with no one anytime''' you are responsible for your own password and no one else. Write it down save it somewhere where noboby can find it, dont loose it.. We cant say this enough.
 
-At number 3 we're going to setup our router settings (log in to your router to see if settings are matching, when you wanna run a public node make sure you forwarding port 21841 en disabling firewall settings and check if port is open. Enter the values as they are in your router also dont forget to specify public IP its necassery your're having a static IP address as a computor.
+At number 3 we're going to setup our router settings (log in to your router to see if settings are matching, when you wanna run a public node make sure you forwarding port 21841 en disabling firewall settings and check if port is open. Enter the values as they are in your router also dont forget to specify public IP its necessary your're having a static IP address as a computor.
 
-At number 4 we specify our COMPUTOR ID (its generated automatically when your're log in with earlier generated seed on the web client, its also provided in our [Discord Server](https://discord.gg/2vDMR8m "Syzygy Discord") also generate another 55 lowercase password and log in on the client this ID will be your operater ID with this we can look at statics on the webclient more info or ask on Discord.
+At number 4 we specify our COMPUTOR ID (its generated automatically when your're log in with earlier generated seed on the web client, its also provided in our [Discord Server](https://discord.gg/2vDMR8m "Syzygy Discord") also generate another 55 lowercase password and log in on the client this ID will be your operater ID with this we can look at statics on the webclient for more info or ask on Discord.
 
 At number 5 we're specifying public IPs ask for latest public IPs on discord in #qubic channel. 
 
