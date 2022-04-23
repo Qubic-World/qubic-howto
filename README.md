@@ -73,7 +73,7 @@ Since every motherboard is different, it is advisable to consult the manual if y
 
 ![alt text](sreenshots/qubic8.png)
 
-At number 1 we're specifying how many cores or threads should be mining (in the end Computor Nodes will do other tasks, before that we'll need 676 computors), read you manual from cpu to check. For now best results are (threads - 2 threads, but is also machine dependent so play with it), for now we leave computing threads as 0.
+At number 1 we're specifying how many cores or threads should be mining (in the end Computor Nodes will do other tasks, before that we'll need 676 computors), read you manual from cpu to check. For now best results are (threads - 2 threads, but its also machine dependent so play with it, some systems its better to do cores - 2), for now we leave computing threads as 0.
 
 At number 2 we need to specify our secret seed, '''make a 55 lowercase password and share it with no one anytime''' you are responsible for your own password and no one else. Write it down save it somewhere where noboby can find it, dont loose it.. We cant say this enough.
 
