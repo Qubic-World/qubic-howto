@@ -132,6 +132,8 @@ If you haven't downloaded [Rufus](https://rufus.ie) yet, do it now. Open and mak
 
 ![alt text](sreenshots/rufus.png)
 
+### Set writing privileges with DISK PART
+
 After that make sure to do following steps so .efi can write to USB stick. Connect your write protected USB Stick to your computer.
 
 Right Click on Start. Click Command Prompt (Admin). Click Yes in the UAC message.
