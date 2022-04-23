@@ -123,12 +123,12 @@ For now lets start. The .efi file created earlier should be in the folder you cr
 
 If you haven't downloaded [Rufus](https://rufus.ie) yet, do it now. Open and make the following changes.
 
-Make sure to select your right USB at least 128GB
-Download [UEFI SHELL](https://github.com/pbatard/UEFI-Shell/releases/download/21H2/UEFI-Shell-2.2-21H2-RELEASE.iso) and load it into Rufus
-Set MBR
-Set UEFI
-Set FAT32
-Press Start
+1. Make sure to select your right USB at least 128GB
+2. Download [UEFI SHELL](https://github.com/pbatard/UEFI-Shell/releases/download/21H2/UEFI-Shell-2.2-21H2-RELEASE.iso) and load it into Rufus
+3. Set MBR
+4. Set UEFI
+5. Set FAT32
+6. Press Start
 
 ![alt text](sreenshots/rufus.png)
 
