@@ -130,6 +130,8 @@ Set UEFI
 Set FAT32
 Press Start
 
+![alt text](sreenshots/rufus.png)
+
 After that make sure to do following steps so .efi can write to USB stick. Connect your write protected USB Stick to your computer.
 
 Right Click on Start. Click Command Prompt (Admin). Click Yes in the UAC message.
