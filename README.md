@@ -40,7 +40,7 @@ Since every motherboard is different, it is advisable to consult the manual if y
 1. Make sure motherboard can run or boot with UEFI
 2. Disable secure boot
 3. Change boot order to USB (uefi)
-4. Set time to 00:00 UTC
+4. Set time to UTC TIME +0
 5. Make sure network stack is available (if not then maybe you need to install drivers, we'll be covering this later and its yet not described in this tutorial)
 
 # Compiling Qubic with Visual Studio Code Community 2022
@@ -114,3 +114,35 @@ So with everything setup, we're going to compile the .efi file. The next steps a
 After al these settings we have set up, hit CTRL SHIFT + B, if every thing is fine you should see something like this in your Visual Studio Code screen.
 
 ![alt text](sreenshots/qubic21.png)
+
+# Preparing an USB stick to run Qubic
+
+Running the .efi application successfully, depends on the system (check tested motherboard/cpu section). Make sure the system has no access to other disks. Qubic needs to be running from USB FS0: and at the time of writing @N-010 at [Discord](https://discord.gg/2vDMR8m "Syzygy Discord") has written a solution to specify other disks, but this has not been tested by me.
+
+For now lets start. The .efi file created earlier should be in the folder you created the project, something like /QubicTest/x64/Release/QubicTest.efi
+
+If you haven't downloaded [Rufus](https://rufus.ie) yet, do it now. Open and make the following changes.
+
+Make sure to select your right USB at least 128GB
+Download [UEFI SHELL](https://github.com/pbatard/UEFI-Shell/releases/download/21H2/UEFI-Shell-2.2-21H2-RELEASE.iso) and load it into Rufus
+Set MBR
+Set UEFI
+Set FAT32
+Press Start
+
+After that make sure to do following steps so .efi can write to USB stick. Connect your write protected USB Stick to your computer.
+
+Right Click on Start. Click Command Prompt (Admin). Click Yes in the UAC message.
+
+Type **diskpart** and hit Enter.
+
+Type **list disk** and hit Enter. 
+
+Here, you’ll be able to see a list of storage media connected to your computer like your internal hard drive, SSD, pen drive, or USB Stick.
+Type select **disk number of your disk**. Example, select disk 1 in my case. Make sure you enter the number correctly and don’t end up changing the attributes of your internal hard drive or any other storage media.
+
+Type **attributes disk clear readonly** and press Enter.
+
+Type **exit** and press Enter to get out of the diskpart utility. 
+
+Type **exit** and press Enter again to get out of the command line.
