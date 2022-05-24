@@ -117,7 +117,7 @@ After al these settings we have set up, hit CTRL SHIFT + B, if every thing is fi
 
 # Preparing an USB stick to run Qubic
 
-Running the .efi application successfully, depends on the system (check tested motherboard/cpu section). Make sure the system has no access to other disks. Qubic needs to be running from USB FS0: and at the time of writing @N-010 at [Discord](https://discord.gg/2vDMR8m "Syzygy Discord") has written a solution to specify other disks, but this has not been tested by me.
+Running the .efi application successfully, depends on the system (check tested motherboard/cpu section). Make sure the system has no access to other disks. Qubic needs to be running from USB FS0: and at the time of writing @N-010 at [Discord](https://discord.gg/2vDMR8m "Syzygy Discord") has written a solution to specify other disks, but this has not been tested by me. For example i needed to remove completely mij SSD disk.
 
 For now lets start. The .efi file created earlier should be in the folder you created the project, something like /QubicTest/x64/Release/QubicTest.efi
 
