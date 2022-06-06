@@ -1,3 +1,7 @@
+# Qubic
+
+All the latest information you can find on the official website [qubic.wiki](http://www.qubic.wiki)
+
 # Table of Contents
 
 > 1. [Qubic a quorum-based computations protocol](#qubic-protocol)
