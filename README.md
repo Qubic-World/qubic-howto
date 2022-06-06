@@ -1,3 +1,23 @@
+# Table of Contents
+
+> 1. [Qubic a quorum-based computations protocol](#qubic-protocol)
+> 2. [Hardware Requirements](#hardware-requirements)
+> 3. [Software Requirements](#software-requirements)
+> 4. [The steps we will take to achieve a successful running efi application](#steps)
+> 5. [Before we start read very carefully](#before-start)
+> 6. [Preparing motherboard and bios settings](#preparing-motherboard)
+> 7. [Code modifications](#code)
+>    1. [Seeds](#code-seeds)
+>    2. [Browser](#code-browser)
+> 8. [Preparing an USB stick to run Qubic](#preparing-usb)
+>   1. [Set writing privileges with DISK PART](#disk-part)
+
+---
+   
+
+
+
+<a name="qubic-protocol"></a>
 # Qubic a quorum-based computations protocol.
 
 In this tutorial we'll setup a [Qomputor](https://www.computors.org/computing/qomputor "Qomputor") Node (A mining node will maybe require an other approach), we try to make this tutorial as easy as possible but some knowledge of computer systems is definitely required. This tutorial is a community initiative. For more information or questions join [Syzygy Discord ](https://discord.gg/2vDMR8m "Syzygy Discord").
@@ -12,6 +32,7 @@ Because we use a UEFI application, the successful use of the software is very de
 
 For now, the exact conditions for a successful system are not yet available. 
 
+<a name="hardware-requirements"></a>
 # Hardware Requirements
 * Highend CPU
 * Motherboard which accept UEFI software (disable secure boot)
@@ -19,11 +40,13 @@ For now, the exact conditions for a successful system are not yet available.
 * 1GBps internet connection
 * 128GB USB Stick
 
+<a name="software-requirements"></a>
 # Software Requirements
 * Qubic.cpp file
 * [Visual Studio Code Community 2022](https://visualstudio.microsoft.com/vs)
 * [Rufus](https://rufus.ie)
 
+<a name="steps"></a>
 # The steps we will take to achieve a successful running efi application
 
 1. Prepare motherboard/bios settings
@@ -31,9 +54,11 @@ For now, the exact conditions for a successful system are not yet available.
 4. Prepare USB
 5. Run
 
+<a name="before-start"></a>
 # Before we start read very carefully.
 As a community or as an individual, we are in no way responsible for losing passwords or losing money. We assume that self-research is being done and that the common sense of an individual does its job. No rights can be obtained from its contents, nor is it meant as personal or professional advice. Also check if this info is up to date or even outdated.
 
+<a name="preparing-motherboard"></a>
 # Preparing motherboard and bios settings 
 Since every motherboard is different, it is advisable to consult the manual if you cannot find certain settings. There are a number of important things that need to be set up.
 
@@ -43,6 +68,7 @@ Since every motherboard is different, it is advisable to consult the manual if y
 4. Set time to UTC TIME +0
 5. Make sure network stack is available (if not then maybe you need to install drivers, we'll be covering this later and its yet not described in this tutorial)
 
+<a name="compiling"></a>
 # Compiling Qubic with Visual Studio Code Community 2022
 
 1. Install Visual Studio Code Community 2022, while installing make sure the Desktop Development with C++ components are installed. If you already had installed Visual Studio Code you install the components at Tools >> Get Tools and Features.
@@ -75,7 +101,7 @@ Since every motherboard is different, it is advisable to consult the manual if y
 
 At number 1 we're specifying how many cores or threads should be mining (in the end Computor Nodes will do other tasks, before that we'll need 676 computors), read you manual from cpu to check. For now best results are (total threads - 3 threads, but its also machine dependent so play with it, some systems its better to do cores - 2), for now we leave computing threads as 1.
 
-At number 2 we need to specify our secret seed, '''make a 55 lowercase password and share it with no one anytime''' you are responsible for your own password and no one else. Write it down save it somewhere where noboby can find it, dont loose it.. We cant say this enough.
+At number 2 we need to specify our secret [seeds](#code-seeds), '''make a 55 lowercase password and share it with no one anytime''' you are responsible for your own password and no one else. Write it down save it somewhere where noboby can find it, dont loose it.. We cant say this enough.
 
 At number 3 we're going to setup our router settings (log in to your router to see if settings are matching, when you wanna run a public node make sure you forwarding port 21841 en disabling firewall settings and check if port is open. Enter the values as they are in your router also dont forget to specify public IP its necessary your're having a static IP address as a computor.
 
@@ -119,6 +145,26 @@ After al these settings we have set up, hit CTRL SHIFT + B, if every thing is fi
 
 ![alt text](sreenshots/qubic21.png)
 
+<a name="code"></a>
+# Code modifications
+
+<a name="code-seeds"></a>
+### Seeds
+
+More than one seed can be entered into 
+`static unsigned char ownSeeds[][55 + 1] = { "<seed>" };`
+`static unsigned char ownSeeds[][55 + 1] = { "<seed1>", "<seed2>", "<seed3>" };`
+
+In this case a single machine will be doing computor job once but signing the results with all listed seeds. Note that a failure of this machine will have negative impact on all computors whose seeds are used, so don't put too many seeds in one basket.
+
+__Very important:__ There should be only 1 (one) machine in the universe with computor seed entered into ownSeeds, if there are more than one such machines that computor will likely face decimations (-10% to revenue multiple times) because of signing conflicting messages.
+
+<a name="code-browser"></a>
+### Browser
+
+Requires port `80` to be open as well. Set `NUMBER_OF_CLIENT_CONNECTIONS` to `0` if you don't need to connect to your node with a browser.
+
+<a name="preparing-usb"></a>
 # Preparing an USB stick to run Qubic
 
 Running the .efi application successfully, depends on the system (check tested motherboard/cpu section). Make sure the system has no access to other disks. Qubic needs to be running from USB FS0: and at the time of writing @N-010 at [Discord](https://discord.gg/2vDMR8m "Syzygy Discord") has written a solution to specify other disks, but this has not been tested by me. For example i needed to remove completely mij SSD disk.
@@ -136,6 +182,7 @@ If you haven't downloaded [Rufus](https://rufus.ie) yet, do it now. Open and mak
 
 ![alt text](sreenshots/rufus.png)
 
+<a name="disk-part"></a>
 ### Set writing privileges with DISK PART
 
 After that make sure to do following steps so .efi can write to USB stick. Connect your write protected USB Stick to your computer.
