@@ -10,7 +10,7 @@
 >    1. [Seeds](#code-seeds)
 >    2. [Browser](#code-browser)
 > 8. [Preparing an USB stick to run Qubic](#preparing-usb)
->   1. [Set writing privileges with DISK PART](#disk-part)
+>    1. [Set writing privileges with DISK PART](#disk-part)
 
 ---
    
@@ -151,9 +151,9 @@ After al these settings we have set up, hit CTRL SHIFT + B, if every thing is fi
 <a name="code-seeds"></a>
 ### Seeds
 
-More than one seed can be entered into 
-`static unsigned char ownSeeds[][55 + 1] = { "<seed>" };`
-`static unsigned char ownSeeds[][55 + 1] = { "<seed1>", "<seed2>", "<seed3>" };`
+More than one seed can be entered into   
+`static unsigned char ownSeeds[][55 + 1] = { "<seed>" };`  
+`static unsigned char ownSeeds[][55 + 1] = { "<seed1>", "<seed2>", "<seed3>" };`  
 
 In this case a single machine will be doing computor job once but signing the results with all listed seeds. Note that a failure of this machine will have negative impact on all computors whose seeds are used, so don't put too many seeds in one basket.
 
