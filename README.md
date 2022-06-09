@@ -208,11 +208,13 @@ Type **exit** and press Enter again to get out of the command line.
 
 ###How to place Qubic files on USB###
 
-Once we have prepared the USB to be used the USB should be look like this.
+Then we need to add some files like **solution.data**, **system.data**, **mining.data** and Qomputor.efi (the file we created earlier) these files should all be on the USB like the pictures below.
 
-![alt text](sreenshots/usbfiles.png)
+![alt text](sreenshots/usb1.png)
 
-Then we need to add some additional files like **solution.data**, **system.data** and **mining.data** these files should all be in the root folder of the USB besides the folder **efi**
+![alt text](sreenshots/usb2.png)
+
+![alt text](sreenshots/usb3.png)
 
 The file mining.data can be dowloaded here [mining.data](https://mega.nz/file/QBc2SZKJ#hT3UF4MJgfZ2t-SiBF3gtafFyMdhf89cUKpvWgpM-OE "Mining Data") 
 
