@@ -229,7 +229,6 @@ fs0:
 timezone -s 0:00
 cd efi/boot/
 Qomputor.efi
-
 ```
 
 This so called startup.nsh file needs to be placed also in the root folder of the USB.
