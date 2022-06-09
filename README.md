@@ -174,7 +174,7 @@ Requires port `80` to be open as well. Set `NUMBER_OF_CLIENT_CONNECTIONS` to `0`
 
 Running the .efi application successfully, depends on the system (check tested motherboard/cpu section). Make sure the system has no access to other disks. Qubic needs to be running from USB FS0: and at the time of writing @N-010 at [Discord](https://discord.gg/2vDMR8m "Syzygy Discord") has written a solution to specify other disks, but this has not been tested by me. For example i needed to remove completely my SSD disk.
 
-For now lets start. The .efi file created earlier should be in the folder you created the project, something like /QubicTest/x64/Release/Qomputor.efi
+For now lets start. The .efi file created earlier should be in the folder you created the project, something like /QubicTest/x64/Release/QubicTest.efi
 
 If you haven't downloaded [Rufus](https://rufus.ie) yet, do it now. Open and make the following changes.
 
@@ -210,7 +210,7 @@ Type **exit** and press Enter again to get out of the command line.
 <a name="usb-files"></a>
 ### How to place Qubic files on USB
 
-Then we need to add some files like **solution.data**, **system.data**, **mining.data** and **Qomputor.efi** (the file we created earlier) these files should all be on the USB like the pictures below.
+Then we need to add some files like **solution.data**, **system.data**, **mining.data** and **QubicTest.efi.efi** (the file we created earlier) these files should all be on the USB like the pictures below. (I called my project Qomputor, so the .efi file is called Qomputor.efi instead of QubicTest.efi)
 
 ![alt text](sreenshots/usb1.png)
 
