@@ -206,10 +206,16 @@ Type **exit** and press Enter to get out of the diskpart utility.
 
 Type **exit** and press Enter again to get out of the command line.
 
+###How to place Qubic files on USB###
+
 Once we have prepared the USB to be used the USB should be look like this.
 
 ![alt text](sreenshots/usbfiles.png)
 
 Then we need to add some additional files like **solution.data**, **system.data** and **mining.data** these files should all be in the root folder of the USB besides the folder **efi**
+
+The file mining.data can be dowloaded here [mining.data](https://mega.nz/file/QBc2SZKJ#hT3UF4MJgfZ2t-SiBF3gtafFyMdhf89cUKpvWgpM-OE "Mining Data") 
+
+
 
 
