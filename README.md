@@ -223,11 +223,11 @@ The file mining.data can be downloaded here [mining.data](https://mega.nz/file/Q
 Additional we can create a file called **startup.nsh** with this file we can automate the startup process. The following lines can be added to this file:
 
 *@echo -off
-cls
-fs0:
-timezone -s 0:00
-cd efi/boot/
-Qomputor.efi
+*cls
+*fs0:
+*timezone -s 0:00
+*cd efi/boot/
+*Qomputor.efi
 
 This so called startup.nsh file needs to be placed also in the root folder of the USB.
 
