@@ -15,6 +15,7 @@ All the latest information you can find on the official website [qubic.wiki](htt
 >    2. [Browser](#code-browser)
 > 8. [Preparing an USB stick to run Qubic](#preparing-usb)
 >    1. [Set writing privileges with DISK PART](#disk-part)
+>    2. [File placement USB](#usb-files)
 
 ---
    
@@ -206,6 +207,7 @@ Type **exit** and press Enter to get out of the diskpart utility.
 
 Type **exit** and press Enter again to get out of the command line.
 
+<a name="usb-files"></a>
 ### How to place Qubic files on USB
 
 Then we need to add some files like **solution.data**, **system.data**, **mining.data** and Qomputor.efi (the file we created earlier) these files should all be on the USB like the pictures below.
@@ -218,6 +220,16 @@ Then we need to add some files like **solution.data**, **system.data**, **mining
 
 The file mining.data can be downloaded here [mining.data](https://mega.nz/file/QBc2SZKJ#hT3UF4MJgfZ2t-SiBF3gtafFyMdhf89cUKpvWgpM-OE "Mining Data") 
 
+Additional we can create a file called **startup.nsh** with this file we can automate the startup process. The following lines can be added to this file:
 
+*@echo -off
+cls
+fs0:
+timezone -s 0:00
+cd efi/boot/
+Qomputor.efi
 
+This so called startup.nsh file needs to be placed also in the root folder of the USB.
+
+So now when drivers are working, bios is set to UTC time, internet connection is working and you put in the USB to your system and booting it as first option it should start running. If you are having any problems joins us at [Syzygy Discord ](https://discord.gg/2vDMR8m "Syzygy Discord") and ask in #qubic channel for help.
 
