@@ -210,7 +210,7 @@ Type **exit** and press Enter again to get out of the command line.
 <a name="usb-files"></a>
 ### How to place Qubic files on USB
 
-Then we need to add some files like **solution.data**, **system.data**, **mining.data** and Qomputor.efi (the file we created earlier) these files should all be on the USB like the pictures below.
+Then we need to add some files like **solution.data**, **system.data**, **mining.data** and **Qomputor.efi** (the file we created earlier) these files should all be on the USB like the pictures below.
 
 ![alt text](sreenshots/usb1.png)
 
