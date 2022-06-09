@@ -205,3 +205,11 @@ Type **attributes disk clear readonly** and press Enter.
 Type **exit** and press Enter to get out of the diskpart utility. 
 
 Type **exit** and press Enter again to get out of the command line.
+
+Once we have prepared the USB to be used the USB should be look like this.
+
+![alt text](sreenshots/usbfiles.png)
+
+Then we need to add some additional files like **solution.data**, **system.data** and **mining.data** these files should all be in the root folder of the USB besides the folder **efi**
+
+
