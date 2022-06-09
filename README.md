@@ -233,5 +233,5 @@ Qomputor.efi
 
 This so called startup.nsh file needs to be placed also in the root folder of the USB.
 
-So now when drivers are working, bios is set to UTC time, internet connection is working and you put in the USB to your system and booting it as first option it should start running. If you are having any problems joins us at [Syzygy Discord ](https://discord.gg/2vDMR8m "Syzygy Discord") and ask in #qubic channel for help.
+So now when drivers are working, bios is set to UTC time, internet connection is working and you put in the USB to your system and booting it as first option it should start running. If you are having any problems join us at [Syzygy Discord ](https://discord.gg/2vDMR8m "Syzygy Discord") and ask in #qubic channel for help.
 
