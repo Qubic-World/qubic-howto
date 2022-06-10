@@ -70,7 +70,7 @@ Since every motherboard is different, it is advisable to consult the manual if y
 1. Make sure motherboard can run or boot with UEFI
 2. Disable secure boot
 3. Change boot order to USB (uefi)
-4. Set time to UTC TIME +0
+4. Set time to UTC TIME (do not use +0 as your computer should not respect daylight savings)
 5. Make sure network stack is available (if not then maybe you need to install drivers, we'll be covering this later and its yet not described in this tutorial)
 
 <a name="compiling"></a>
