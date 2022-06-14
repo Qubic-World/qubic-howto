@@ -25,7 +25,7 @@ All the latest information you can find on the official website [qubic.wiki](htt
 <a name="qubic-protocol"></a>
 # Qubic a quorum-based computations protocol.
 
-In this tutorial we'll setup a [Qomputor](https://www.computors.org/computing/qomputor "Qomputor") Node (A mining node will maybe require an other approach), we try to make this tutorial as easy as possible but some knowledge of computer systems is definitely required. This tutorial is a community initiative. For more information or questions join [Syzygy Discord ](https://discord.gg/2vDMR8m "Syzygy Discord").
+In this tutorial we'll setup a [Qomputor](https://www.computors.org/computing/qomputor "Qomputor") Node (Mining node needs slightly different approach and is described here.), we try to make this tutorial as easy as possible but some knowledge of computer systems is definitely required. This tutorial is a community initiative. For more information or questions join [Syzygy Discord ](https://discord.gg/2vDMR8m "Syzygy Discord").
 
 Qubic software is running on baremetal machines without any OS installed, the software is a so called UEFI application and for security reasons we compile it ourselves with the .cpp files provided by [Come-from-Beyond](https://twitter.com/c___f___b "Twitter"). The latest releases will always be on [Syzygy Discord ](https://discord.gg/2vDMR8m "Syzygy Discord").
 
@@ -33,7 +33,7 @@ Because we use a UEFI application, the successful use of the software is very de
 
 | Motherboard        | CPU         | RAM  | Connection |
 | ------------------ |:-----------:| ----:| -------:   |
-| MSI B450-A PRO MAX | Ryzen 3950x | 64GB | 1gbps      |
+| MSI B450-A PRO MAX | Ryzen 3950x | 64GB | 1gbps up/down |
 
 For now, the exact conditions for a successful system are not yet available. 
 
@@ -100,7 +100,9 @@ Since every motherboard is different, it is advisable to consult the manual if y
 
 ![alt text](sreenshots/qubic7.png)
 
-6. When the file is imported we are going to setup our personal settings.
+6. When the file is imported we are going to setup our personal settings. **(At this stage we can specify if we want the system to run as a computor or as a miner to give more mining power to a computor see screenshot below)**
+
+![alt text](sreenshots/minersettings.png)
 
 ![alt text](sreenshots/qubic8.png)
 
