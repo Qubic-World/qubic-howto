@@ -100,6 +100,7 @@ Since every motherboard is different, it is advisable to consult the manual if y
 
 ![alt text](sreenshots/qubic7.png)
 
+<a name="computor-or-miner"></a>
 6. When the file is imported we are going to setup our personal settings. **(At this stage we can specify if we want the system to run as a computor or as a miner to give more mining power to a computor see screenshot below)**
 
 ![alt text](sreenshots/minersettings.png)
