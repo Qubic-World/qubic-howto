@@ -238,3 +238,7 @@ This so called startup.nsh file needs to be placed also in the root folder of th
 
 So now when drivers are working, bios is set to UTC time, internet connection is working and you put in the USB to your system and booting it as first option it should start running. If you are having any problems join us at [Syzygy Discord ](https://discord.gg/2vDMR8m "Syzygy Discord") and ask in #qubic channel for help.
 
+### USB port
+
+If qubic does not start or freezes at the beginning, try using the USB 2.0 port
+
