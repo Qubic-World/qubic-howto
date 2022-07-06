@@ -16,6 +16,7 @@ All the latest information you can find on the official website [qubic.wiki](htt
 > 8. [Preparing an USB stick to run Qubic](#preparing-usb)
 >    1. [Set writing privileges with DISK PART](#disk-part)
 >    2. [File placement USB](#usb-files)
+> 9. [Roles](#roles)
 
 ---
    
@@ -242,3 +243,20 @@ So now when drivers are working, bios is set to UTC time, internet connection is
 
 If qubic does not start or freezes at the beginning, try using the USB 2.0 port
 
+<a name="roles"></a>
+# Roles
+
+### Computor
+
+To get the role of `Computor` you need to register with the bot `ComputorPollBot`. To do this, download the [html](https://discord.com/channels/768887649540243497/938806734212984853/943073346088734731) file  
+Next, log on with the seed. Then enter a constant in the `message` field: `For ComputorPollBot from` and username type: `name#4444`. The result is a string: `For ComputorPollBot from N-010#3073`
+
+Insert the resulting message with the `/register` command in the [#botbox](https://discord.com/channels/768887649540243497/984349162403414016) channel
+Example:
+```sh
+/register {
+    "identity": "BPFJANADOGBDLNNONDILEMAICAKMEEGBFPJBKPBCEDFJIALDONODMAIMDBFKCFEEMEOLFK",
+    "message": "For ComputorPollBot from N-010#3073",
+    "signature": "bhijbaejihfcgpbmoddoihhfhoapmdhnogkolnimfekndhpdddeddjfhopmdbacbjjcjcddmklmdkfeplkbdaiogdboobiiodmhndphmojnaeedcoaijnfpddebdaadg"
+}
+```
