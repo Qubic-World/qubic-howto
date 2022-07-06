@@ -73,7 +73,7 @@ Since every motherboard is different, it is advisable to consult the manual if y
 2. Disable secure boot
 3. Change boot order to USB (uefi)
 4. Set time to UTC TIME (do not use +0 as your computer should not respect daylight savings)
-5. Make sure network stack is available in BIOS if not you will need to load your network driver manually. (Check troubleshooting section)
+5. Make sure network stack is available in BIOS if not you will need to load your network driver manually. (Check [troubleshooting](#troubleshooting) section)
 
 <a name="compiling"></a>
 # Compiling Qubic with Visual Studio Code Community 2022
@@ -190,14 +190,16 @@ If you haven't downloaded [Rufus](https://rufus.ie) yet, do it now. Open and mak
 5. Set FAT32
 6. Press Start
 
+![alt text](sreenshots/rufus.png)
+
 <a name="create-partition"></a>
 If instead of using a pendrive you wish to create a FAT32 partition in your hardrive for faster R/W speeds you can use Windows Built-in Disk Management , copy all contents to drive, and boot. Your BIOS should recognize it as en UEFI partition. 
 
-(sreenshots/disk-management.png)
+![alt text](sreenshots/disk-management.png)
 
 Note: If you are working with a NVMe hardrive, you may encounter issues, if so try to update your BIOS to latest version or find EFI drivers for your NVMe controller from your motherboard vendor's webpage.
 
-![alt text](sreenshots/rufus.png)
+
 
 <a name="disk-part"></a>
 ### Set writing privileges with DISK PART
@@ -272,11 +274,11 @@ Example:
 <a name="troubleshooting"></a>
 # Troubleshooting
 
-If you are having problems making your network card to work you can load the drivers manually your self.
+If you are having problems making your network card to work you can load the drivers manually yourself.
 Steps: 
 
 1. Try to locate your network card model & vendor
-2. Locate the driver from network-drivers folder (you can also search in Google if its not there) & unzip files to your USB/Drive inside a folder called **drivers**  
+2. Locate the driver from network-drivers folder (you can also search in Google if its not there) & unzip files to your USB/Drive inside a folder called **drivers**, if you have doubts you can add various models, the more drivers you load, the longer will take for startup
 3. Adding to your **startup.nsh** file the following code just after the **fs0:** line:
 
 ```
@@ -286,7 +288,6 @@ stall 5000000
 ifconfig -l
 cd ..
 ```
-
-If managed to load the correct drivers for your system you would be able to see your network card details.
+If successful, you should be seeing your network card details before qubic software starts.
 
 
