@@ -195,7 +195,7 @@ If you haven't downloaded [Rufus](https://rufus.ie) yet, do it now. Open and mak
 <a name="create-partition"></a>
 If instead of using a pendrive you wish to create a FAT32 partition in your hardrive for faster R/W speeds you can use Windows Built-in Disk Management , copy all contents to drive, and boot. Your BIOS should recognize it as en UEFI partition. 
 
-![alt text](sreenshots/disk-management.png)
+![alt text](sreenshots/disk-management.jpg)
 
 Note: If you are working with a NVMe hardrive, you may encounter issues, if so try to update your BIOS to latest version or find EFI drivers for your NVMe controller from your motherboard vendor's webpage.
 
