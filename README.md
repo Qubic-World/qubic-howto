@@ -52,6 +52,10 @@ For now, the exact conditions for a successful system are not yet available.
 * Qubic.cpp file
 * [Visual Studio Code Community 2022](https://visualstudio.microsoft.com/vs)
 * [Rufus](https://rufus.ie)
+* Qubic Qomputor files (system.data, ledger.data) check discord for latest info.
+* Qubic Miner files (mining.data, solution.data) check discord for latest info.
+* Open port 21841
+* Open port 80 (required so clients can connect)
 
 <a name="steps"></a>
 # The steps we will take to achieve a successful running efi application
@@ -113,7 +117,7 @@ At number 1 we're specifying how many cores or threads should be mining (in the 
 
 At number 2 we need to specify our secret [seeds](#code-seeds), '''make a 55 lowercase password and share it with no one anytime''' you are responsible for your own password and no one else. Write it down save it somewhere where noboby can find it, dont loose it.. We cant say this enough.
 
-At number 3 we're going to setup our router settings (log in to your router to see if settings are matching, when you wanna run a public node make sure you forwarding port 21841 en disabling firewall settings and check if port is open. Enter the values as they are in your router also dont forget to specify public IP its necessary your're having a static IP address as a computor.
+At number 3 we're going to setup our router settings (log in to your router to see if settings are matching, when you wanna run a public node make sure you forwarding port 80 and 21841 and disabling firewall settings and check if port is open. Enter the values as they are in your router also dont forget to specify public IP its necessary your're having a static IP address as a computor.
 
 At number 4 we specify our COMPUTOR ID (its generated automatically when your're log in with earlier generated seed on the web client, its also provided in our [Discord Server](https://discord.gg/2vDMR8m "Syzygy Discord") also generate another 55 lowercase password and log in on the client this ID will be your operator ID with this we can look at statics on the webclient for more info or ask on Discord.
 
@@ -175,8 +179,9 @@ __Very important:__ There should be only 1 (one) machine in the universe with co
 Requires port `80` to be open as well. Set `NUMBER_OF_CLIENT_CONNECTIONS` to `0` if you don't need to connect to your node with a browser.
 
 <a name="preparing-usb"></a>
-# Preparing an USB stick to run Qubic
+# Preparing an USB stick or SSD to run Qubic
 
+## USB
 Running the .efi application successfully, depends on the system (check tested motherboard/cpu section). Make sure the system has no access to other disks. Qubic needs to be running from USB FS0: and at the time of writing @N-010 at [Discord](https://discord.gg/2vDMR8m "Syzygy Discord") has written a solution to specify other disks, but this has not been tested by me. For example i needed to remove completely my SSD disk.
 
 For now lets start. The .efi file created earlier should be in the folder you created the project, something like /QubicTest/x64/Release/QubicTest.efi
@@ -192,12 +197,27 @@ If you haven't downloaded [Rufus](https://rufus.ie) yet, do it now. Open and mak
 
 ![alt text](sreenshots/rufus.png)
 
+
+## SSD Drive
+
+Make sure your system is always loading the right files from the right disk (for now not everybody is managed to setup successfully a SSD drive so this also is hard and software dependent)
+
+1. Download the program guiformat.exe. (https://soft.mydiv.net/win/files-FAT32format.html)
+2. Run it as administrator.
+3. Select the desired ssd-drive and press the start button.
+4. Add all required files to the drive as you would do with a normal USB.
+5. Install the SSD in the computer or reboot the PC if you are using the same machine.
+6. Go to BIOS
+7. Boot from the SSD
+
 <a name="create-partition"></a>
-If instead of using a pendrive you wish to create a FAT32 partition in your hardrive for faster R/W speeds you can use Windows Built-in Disk Management , copy all contents to drive, and boot. Your BIOS should recognize it as en UEFI partition. 
+You can also try create a FAT32 partition in your hardrive for faster R/W speeds you can use Windows Built-in Disk Management , copy all contents to drive, and boot. Your BIOS should recognize it as en UEFI partition. 
 
 ![alt text](sreenshots/disk-management.jpg)
 
 Note: If you are working with a NVMe hardrive, you may encounter issues, if so try to update your BIOS to latest version or find EFI drivers for your NVMe controller from your motherboard vendor's webpage.
+
+
 
 
 
