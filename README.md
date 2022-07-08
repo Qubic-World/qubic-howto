@@ -17,6 +17,8 @@ All the latest information you can find on the official website [qubic.wiki](htt
 >    1. [Set writing privileges with DISK PART](#disk-part)
 >    2. [File placement USB](#usb-files)
 > 9. [Roles](#roles)
+>    1. [Register](#roles-register)
+>    2. [Poll](#roles-poll)
 > 10. [Troubleshooting](#troubleshooting)
 
 ---
@@ -276,7 +278,8 @@ If qubic does not start or freezes at the beginning, try using the USB 2.0 port
 <a name="roles"></a>
 # Roles
 
-### Computor
+<a name="roles-register"></a>
+### Register
 
 To get the role of `Computor` you need to register with the bot `ComputorPollBot`. To do this, download the [html](https://discord.com/channels/768887649540243497/938806734212984853/943073346088734731) file  
 Next, log on with the seed. Then enter a constant in the `message` field: `For ComputorPollBot from` and username type: `name#4444`. The result is a string: `For ComputorPollBot from N-010#3073`
@@ -290,6 +293,22 @@ Example:
     "signature": "bhijbaejihfcgpbmoddoihhfhoapmdhnogkolnimfekndhpdddeddjfhopmdbacbjjcjcddmklmdkfeplkbdaiogdboobiiodmhndphmojnaeedcoaijnfpddebdaadg"
 }
 ```
+
+<a name="roles-poll"></a>
+### Poll
+
+Only users with the [Computor](#roles-register) role can create and take part in the poll. You can vote as many times as your IDs are computors  
+
+#### Command
+The `/poll` command is used to create a poll. The command accepts as arguments: the poll text and the voting options  
+Example:
+```
+/poll "body" "var1" "var2" "var3" "var4" "var5"
+```
+![alt text](sreenshots/poll_bot.png)
+
+Because of Discord's limitations, only 5 voting options can be created  
+
 
 <a name="troubleshooting"></a>
 # Troubleshooting
