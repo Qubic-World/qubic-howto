@@ -300,14 +300,15 @@ Example:
 Only users with the [Computor](#roles-register) role can create and take part in the poll. You can vote as many times as your IDs are computors  
 
 #### Command
-The `/poll` command is used to create a poll. The command accepts as arguments: the poll text and the voting options  
+The `/poll` command is used to create a poll. It can only be used in the [polls](https://discord.com/channels/768887649540243497/995048638508191897) channel. The command accepts as arguments: the poll text and the voting options  
 Example:
 ```
 /poll "body" "var1" "var2" "var3" "var4" "var5"
 ```
 ![alt text](sreenshots/poll_bot.png)
 
-Because of Discord's limitations, only 5 voting options can be created  
+The maximum number of variants is 5  
+By clicking on the voting button you give **all** your votes to this variant. The number of your votes is the number of IDs that are `computors`
 
 
 <a name="troubleshooting"></a>
