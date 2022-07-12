@@ -18,7 +18,8 @@ All the latest information you can find on the official website [qubic.wiki](htt
 >    2. [File placement USB](#usb-files)
 > 9. [Roles](#roles)
 >    1. [Register](#roles-register)
->    2. [Poll](#roles-poll)
+>    2. [Unregister](#roles-unregister)
+>    3. [Poll](#roles-poll)
 > 10. [Troubleshooting](#troubleshooting)
 
 ---
@@ -294,13 +295,26 @@ Example:
 }
 ```
 
+<a name="roles-unregister"></a>
+### Unregister
+
+With the command `/unregister` you can remove the ID. The body of the command is the same as that of `/register`
+Example:
+```sh
+/unregister {
+    "identity": "BPFJANADOGBDLNNONDILEMAICAKMEEGBFPJBKPBCEDFJIALDONODMAIMDBFKCFEEMEOLFK",
+    "message": "For ComputorPollBot from N-010#3073",
+    "signature": "bhijbaejihfcgpbmoddoihhfhoapmdhnogkolnimfekndhpdddeddjfhopmdbacbjjcjcddmklmdkfeplkbdaiogdboobiiodmhndphmojnaeedcoaijnfpddebdaadg"
+}
+```
+
 <a name="roles-poll"></a>
 ### Poll
 
 Only users with the [Computor](#roles-register) role can create and take part in the poll. You can vote as many times as your IDs are computors  
 
 #### Command
-The `/poll` command is used to create a poll. It can only be used in the [polls](https://discord.com/channels/768887649540243497/995048638508191897) channel. The command accepts as arguments: the poll text and the voting options  
+The `/poll` command is used to create a poll. It can only be used in the [polls](https://discord.com/channels/768887649540243497/995048638508191897) channel. The command accepts as arguments: the poll text and the voting options    
 Example:
 ```
 /poll "body" "var1" "var2" "var3" "var4" "var5"
@@ -308,7 +322,7 @@ Example:
 ![alt text](sreenshots/poll_bot.png)
 
 The maximum number of variants is 5  
-By clicking on the voting button you give **all** your votes to this variant. The number of your votes is the number of IDs that are `computors`
+By clicking on the voting button you give **all** your votes to this variant. The number of your votes is the number of IDs that are `computors`. If over time you have increased the number of IDs that are `computor` you can vote again
 
 
 <a name="troubleshooting"></a>
