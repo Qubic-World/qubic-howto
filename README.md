@@ -322,7 +322,7 @@ Example:
 ![alt text](sreenshots/poll_bot.png)
 
 The maximum number of variants is 5  
-By clicking on the voting button you give **all** your votes to this variant. The number of your votes is the number of IDs that are `computors`. If over time you have increased the number of IDs that are `computor` you can vote again
+By clicking on the voting button you give **all** your votes to this variant. The number of your votes is the number of IDs that are `computors`. The number of votes in unclosed polls may change when your IDs, which are computors, have increased or decreased. This can happen by changing epochs, you have registered or unregister IDs
 
 
 <a name="troubleshooting"></a>
