@@ -10,17 +10,19 @@ All the latest information you can find on the official website [qubic.wiki](htt
 > 4. [The steps we will take to achieve a successful running efi application](#steps)
 > 5. [Before we start read very carefully](#before-start)
 > 6. [Preparing motherboard and bios settings](#preparing-motherboard)
-> 7. [Code modifications](#code)
+> 7. [Computor setup](#compiling)
+> 8. [Miner setup](#miner)
+> 9. [Code modifications](#code)
 >    1. [Seeds](#code-seeds)
 >    2. [Browser](#code-browser)
-> 8. [Preparing an USB stick to run Qubic](#preparing-usb)
+> 10. [Preparing an USB stick to run Qubic](#preparing-usb)
 >    1. [Set writing privileges with DISK PART](#disk-part)
 >    2. [File placement USB](#usb-files)
-> 9. [Roles](#roles)
+> 11. [Roles](#roles)
 >    1. [Register](#roles-register)
 >    2. [Unregister](#roles-unregister)
 >    3. [Poll](#roles-poll)
-> 10. [Troubleshooting](#troubleshooting)
+> 12. [Troubleshooting](#troubleshooting)
 
 ---
    
