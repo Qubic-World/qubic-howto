@@ -162,6 +162,20 @@ After al these settings we have set up, hit CTRL SHIFT + B, if every thing is fi
 
 ![alt text](sreenshots/qubic21.png)
 
+
+<a name="miner"></a>
+# Miner setup
+
+To run a miner system which can boost your computor score we need the same .cpp file provided by Come-from-Beyond as above. The only thing which is different are some settings. 
+
+![Miner Screenshot](sreenshots/minerpic.png)
+
+1. If you want to run a miner it is very important that there is no computing processor running, we set this value to 0
+2. Define as much miner processors as possible (look at your cpu specifications to check how many threads or cores)
+3. We are not running a computor so fill in 55x an lowercase a "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+4. This is an important step because here we're going to define the ID we are mining for. Dont leave it as in screenshot but get the ID you want to mine for and fill it in here.
+5. Just like a computor we can add some public IPs to connect to the network
+
 <a name="code"></a>
 # Code modifications
 
