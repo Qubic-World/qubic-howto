@@ -295,51 +295,7 @@ If qubic does not start or freezes at the beginning, try using the USB 2.0 port
 <a name="roles"></a>
 # Roles
 
-<a name="roles-register"></a>
-### Register
-
-To get the role of `Computor` you need to register with the bot `ComputorPollBot`. To do this, download the [html](https://discord.com/channels/768887649540243497/938806734212984853/943073346088734731) file  
-Next, log on with the seed. Then enter a constant in the `message` field: `For ComputorPollBot from` and username type: `name#4444`. The result is a string: `For ComputorPollBot from N-010#3073`
-
-Send the received message with the command `/register` to the bot in the **DM**<br></br>
-Example:
-```sh
-/register {
-    "identity": "BPFJANADOGBDLNNONDILEMAICAKMEEGBFPJBKPBCEDFJIALDONODMAIMDBFKCFEEMEOLFK",
-    "message": "For ComputorPollBot from N-010#3073",
-    "signature": "bhijbaejihfcgpbmoddoihhfhoapmdhnogkolnimfekndhpdddeddjfhopmdbacbjjcjcddmklmdkfeplkbdaiogdboobiiodmhndphmojnaeedcoaijnfpddebdaadg"
-}
-```
-
-<a name="roles-unregister"></a>
-### Unregister
-
-With the command `/unregister` you can remove the ID. The body of the command is the same as that of `/register`<br></br>
-Example:
-```sh
-/unregister {
-    "identity": "BPFJANADOGBDLNNONDILEMAICAKMEEGBFPJBKPBCEDFJIALDONODMAIMDBFKCFEEMEOLFK",
-    "message": "For ComputorPollBot from N-010#3073",
-    "signature": "bhijbaejihfcgpbmoddoihhfhoapmdhnogkolnimfekndhpdddeddjfhopmdbacbjjcjcddmklmdkfeplkbdaiogdboobiiodmhndphmojnaeedcoaijnfpddebdaadg"
-}
-```
-
-<a name="roles-poll"></a>
-### Poll
-
-Only users with the [Computor](#roles-register) role can create and take part in the poll. You can vote as many times as your IDs are computors  
-
-#### Command
-The `/poll` command is used to create a poll. It can only be used in the [polls](https://discord.com/channels/768887649540243497/995048638508191897) channel. The command accepts as arguments: the poll text and the voting options    
-Example:
-```
-/poll "body" "var1" "var2" "var3" "var4" "var5"
-```
-![alt text](sreenshots/poll_bot.png)
-
-The maximum number of variants is 5  
-By clicking on the voting button you give **all** your votes to this variant. The number of your votes is the number of IDs that are `computors`. The number of votes in unclosed polls may change when your IDs, which are computors, have increased or decreased. This can happen by changing epochs, you have registered or unregister IDs
-
+To read about getting the `Computor` role and taking polls, see [here](https://n-010.gitbook.io/poll-bot/)
 
 <a name="troubleshooting"></a>
 # Troubleshooting
