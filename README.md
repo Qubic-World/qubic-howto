@@ -19,9 +19,6 @@ All the latest information you can find on the official website [qubic.wiki](htt
 >     1. [Set writing privileges with DISK PART](#disk-part)
 >     2. [File placement USB](#usb-files)
 > 11. [Roles](#roles)
->     1. [Register](#roles-register)
->     2. [Unregister](#roles-unregister)
->     3. [Poll](#roles-poll)
 > 12. [Troubleshooting](#troubleshooting)
 
 ---
