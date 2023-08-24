@@ -1,6 +1,6 @@
 # Qubic
 
-#OUTDATED INFORMATION / THIS INFO WILL BE UPDATED NEXT WEEKS
+#OUTDATED INFORMATION 24-8-2023 / THIS INFO WILL BE UPDATED NEXT WEEKS
 
 All the latest information you can find on the official website [qubic.wiki](http://www.qubic.wiki)
 
